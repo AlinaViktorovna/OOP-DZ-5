@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ConsoleTreeView implements TreeView {
-    private TreePresenter presenter;
     private Scanner scanner;
     
     public ConsoleTreeView() {
@@ -33,7 +32,6 @@ public class ConsoleTreeView implements TreeView {
 
 @Override
     public void setPresenter(TreePresenter presenter) {
-        this.presenter = presenter;
     }
 }
 
